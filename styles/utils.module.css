@@ -1,81 +1,113 @@
 .heading2Xl {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-  }
-   /*custom css for BLOG POSTS*/
-  .headingXl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.04rem;
+  margin: 1rem 0 0.25rem;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+  margin: 0.25rem 0 1rem;
+  color: #e6d5c3;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0 0 0.75rem;
+  color: #cbbba8;
+}
+
+.kicker {
+  margin: 0;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #cbbba8;
+}
+
+.intro {
+  margin: 0.5rem 0 1.5rem;
+  color: #d4cdc4;
+}
+
+.section {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.1rem 0.4rem;
+  border-radius: 18px;
+  background: #241c16;
+  border: 1px solid #5c4a3a;
+  box-shadow: -18px 14px 28px rgba(60, 36, 18, 0.45);
+}
+
+.backgroundC {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  box-shadow: -18px 14px 28px rgba(60, 36, 18, 0.55);
+  border-radius: 18px;
+  background: #241c16;
+  color: #d4cdc4;
+  border: 1px dotted #5c4a3a;
+  padding: 1.25rem 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.field {
+  margin: 0 0 1rem;
+}
+
+.fieldLabel {
+  margin: 0 0 0.2rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+  color: #cbbba8;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 0.85rem;
+}
+
+.listItem a {
+  display: inline-block;
+  padding: 0.15rem 0;
+}
+
+.lightText {
+  color: #e6d5c3;
+}
+
+@media (max-width: 600px) {
+  .heading2Xl {
     font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: 0.08rem;
-    margin: 1rem 0;
-    color: #88bfff;
   }
 
-   /*custom css for BLOG POSTS*/
-  .backgroundC{
-    font-size: 1.2rem;
-    line-height: 1.5;
-    box-shadow: -28px 20px 34px 2px rgba(0, 17, 255, 0.7);
-    border-radius: 17px;
-    background: #000000;
-    color: rgb(193, 193, 193);
-    border-color: rgb(72, 0, 78);
-    border-width: 1px;
-    border-style: dotted;
-    padding: 10px;
-    margin: 10px;
-    font-weight: inherit;
-  
-  }
-  
-  .headingLg {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin: 1rem 0;
+  .headingXl {
+    font-size: 1.6rem;
   }
 
-   /*custom css*/
-  .headingMd {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    box-shadow: -28px 20px 34px 2px rgba(255, 169, 252, 0.496);
-    border-radius: 17px;
-    background: #000000;
-    color: rgb(255, 255, 255);
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    padding: 10px;
-    margin: 10px;
-    font-weight: inherit;
+  .section,
+  .backgroundC {
+    box-shadow: none;
+    padding: 0.9rem 0.85rem;
   }
-   
-  .borderCircle {
-    border-radius: 9999px;
-  }
-   
-  .colorInherit {
-    color: inherit;
-  }
-   
-  .padding1px {
-    padding-top: 1px;
-  }
-   
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-   
-  .listItem {
-    margin: 0 0 1.25rem;
-  }
-   
-  .lightText {
-    color: #e8b9fa;
-  }
+}
